@@ -4,9 +4,9 @@
 
 # Site
 head_title: LA Roberto | Developer
-title: Works on local dev
+title: Works on localhost
 subtitle: Personal Blog
-description: Overengineering software, one broken build at a time
+description: Overengineering software, one broken build at a time.
 author: LA Roberto
 language: en
 timezone: Asia/Manila
@@ -79,3 +79,22 @@ theme: cactus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Override theme config
+theme_config:
+  nav:
+    Home: /
+    About: /about/
+    Writing: /archives/
+
+  projects_url: https://github.com/teh-username
+
+  disqus:
+    enabled: true
+    shortname: laroberto
+
+  google_analytics:
+    enabled: true
+    id: UA-70432331-4
+
+  social_links:
