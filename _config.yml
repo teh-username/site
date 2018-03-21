@@ -98,3 +98,6 @@ theme_config:
     id: UA-70432331-4
 
   social_links:
+
+  logo:
+    enabled: false
