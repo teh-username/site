@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "hexo server",
-    "generate": "hexo clean && hexo generate && cp _redirects public/_redirects"
+    "generate": "hexo clean && hexo generate"
   },
   "dependencies": {
     "hexo": "^3.2.0",
