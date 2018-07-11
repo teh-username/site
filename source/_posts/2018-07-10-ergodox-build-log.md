@@ -1,12 +1,11 @@
 ---
-title: Ergodox Build Log
+title: ErgoDox Build Log
 tags:
   - ergodox
   - builds
   - mk
 date: 2018-07-10 19:57:57
 ---
-
 
 ![Did you ever hear the tragedy of Darth Plagueis the Wise](https://i.imgur.com/UIhQjp4.jpg)
 
@@ -20,7 +19,7 @@ As for sourcing the parts, there are a variety of ways to do it. One would be to
 
 ### Diodes
 
-The first thing that every build beings with is soldering the diodes first. For my build, I opted for through-hole diodes because I can't be bothered mucking around with the surface mount version as I don't have a fancy soldering setup.
+The first thing that every build begins with is soldering the diodes first. For my build, I opted for through-hole diodes because I can't be bothered mucking around with the surface mount version as I don't have a fancy soldering setup.
 
 ![I thought not. It's not a story the Jedi would tell you. ](https://imgur.com/lsPua7u.jpg)
 ![It's a Sith legend.](https://imgur.com/po8aIHl.jpg)
