@@ -88,3 +88,21 @@ Publishing build <latest build>...
 
 >>>Some json response dump for Netlify<<<
 ```
+
+### Update
+
+Thanks to [@giuliano_varriale](https://disqus.com/by/giuliano_varriale/), Netlify does enable auto-publishing once a build is pushed. I've also reached out to Netlify about this and they say it is the expected behaviour.
+
+{% asset_img just_as_planned.png Auto-Publishing is expected behaviour %}
+
+To work around this, [Netlify has an API called `lockDeploy`](https://open-api.netlify.com/#/default/lockDeploy) to which we can call to automatically re-lock our deployment.
+
+It is as simple as adding the following snippet to our `publish.sh` file:
+
+```bash
+# https://open-api.netlify.com/#/default/lockDeploy
+echo "Locking deploy to ${temp##*|}..."
+curl -X POST -H "Authorization: Bearer $NETLIFY_PUBLISH_KEY" -d "{}" "https://api.netlify.com/api/v1/deploys/${temp##*|}/lock"
+```
+
+Again, thanks to [@giuliano_varriale](https://disqus.com/by/giuliano_varriale/) for pointing out the problem and providing a solution.
