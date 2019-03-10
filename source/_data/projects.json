@@ -1,5 +1,10 @@
 [
   {
+    "name": "Service Mesh the Hard Way",
+    "url": "https://github.com/teh-username/service-mesh-the-hard-way",
+    "desc": "Implementing a service mesh from scratch using Envoy"
+  },
+  {
     "name": "Git Gud Scrub",
     "url": "https://github.com/teh-username/git-gud-scrub/",
     "desc": "A web app for learning git"
