@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "hexo server",
-    "generate": "hexo clean && hexo generate",
+    "generate": "hexo clean && hexo generate && cp _headers public/",
     "dev-start": "hexo server --draft"
   },
   "dependencies": {
