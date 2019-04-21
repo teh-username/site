@@ -1,10 +1,10 @@
 ---
 title: ErgoDox Build Log
+date: 2018-07-10 19:57:57
 tags:
   - ergodox
   - builds
   - mk
-date: 2018-07-10 19:57:57
 ---
 
 ![Did you ever hear the tragedy of Darth Plagueis the Wise](https://i.imgur.com/UIhQjp4.jpg)

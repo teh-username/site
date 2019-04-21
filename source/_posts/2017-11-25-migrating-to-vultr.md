@@ -1,11 +1,11 @@
 ---
 title: Migrating to Vultr
+date: 2017-11-25 21:32:42
 tags:
   - Vultr
   - Digital Ocean
   - Terraform
   - VPS
-date: 2017-11-25 21:32:42
 ---
 
 
