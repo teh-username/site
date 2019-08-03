@@ -101,3 +101,7 @@ theme_config:
 
   logo:
     enabled: false
+
+  posts_overview:
+    show_all_posts: false
+    post_count: 10
