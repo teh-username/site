@@ -20,4 +20,4 @@ A big fan of:
 
 I'm currently a Senior Site Reliability Engineer at ING BSS
 
-You can reach me at mail(at)laroberto.com
+You can reach me at hello(at)laroberto.dev
