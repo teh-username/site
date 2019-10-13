@@ -17,7 +17,7 @@ httpbin.mtls-pg.svc.cluster.local:8000     OK         HTTP/mTLS     mTLS       h
 
 > The output above was made possible by [`istioctl authn tls-check`](https://istio.io/docs/reference/commands/istioctl/#istioctl-authn-tls-check). See [aside](#Aside-Checking-mTLS-mappings) for more information.
 
-CRDs applied are (see [aside](Aside-Policies-and-Destination-Rules) for more information):
+CRDs applied are (see [aside](#Aside-Policies-and-Destination-Rules) for more information):
 
 ```yaml
 apiVersion: "authentication.istio.io/v1alpha1"
