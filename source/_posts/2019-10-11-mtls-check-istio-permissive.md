@@ -127,12 +127,12 @@ Now, this is what the configuration looks like when set to use permissive mode:
 
 Summarizing the listeners gives us:
 
+* On strict mode:
+    * Listener - mTLS support
+
 * On permissive mode:
     * Listener 1 - mTLS support, application protocol should be `istio`
     * Listener 2 - HTTP support
-
-* On strict mode:
-    * Listener - mTLS support
 
 So when we try our mTLS request, we get funneled to the plain HTTP listener (that does not accept mTLS) since our target listener is expecting `istio` as the application protocol (which we lack), causing the request to fail.
 
