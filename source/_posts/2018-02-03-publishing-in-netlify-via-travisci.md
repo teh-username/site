@@ -11,7 +11,7 @@ tags:
 
 ## The case of too much CI
 
-I've recently started to dabble with [Netlify](https://www.netlify.com/) to deploy this React + Redux app I'm building as _\*painless\*_ and as transparent as possible. My initial roadblock was that Netlify was being "too eager" with building and deploying my app whenever I push to the production branch (yay Continuous Integration!). Meaning, the app would be built and deployed but without the tests being ran and considered. I initially hooked up the app to [TravisCI](travis-ci.org) which should take care of running the tests + linting. The problem now is that how do I tell Netlify to hold the deployment until TravisCI finished running?
+I've recently started to dabble with [Netlify](https://www.netlify.com/) to deploy this React + Redux app I'm building as _\*painless\*_ and as transparent as possible. My initial roadblock was that Netlify was being "too eager" with building and deploying my app whenever I push to the production branch (yay Continuous Integration!). Meaning, the app would be built and deployed but without the tests being ran and considered. I initially hooked up the app to [TravisCI](https://travis-ci.org/) which should take care of running the tests + linting. The problem now is that how do I tell Netlify to hold the deployment until TravisCI finished running?
 
 ## TravisCI -> Netlify
 
