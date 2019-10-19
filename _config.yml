@@ -94,7 +94,7 @@ theme_config:
     shortname: laroberto
 
   google_analytics:
-    enabled: true
+    enabled: false
     id: UA-70432331-4
 
   social_links:
