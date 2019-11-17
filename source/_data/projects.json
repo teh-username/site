@@ -1,5 +1,10 @@
 [
   {
+    "name": "2Factor-as-a-Service",
+    "url": "https://github.com/teh-username/2faas.dev",
+    "desc": "Web implementation for computing 2FA à la Google Authenticator"
+  },
+  {
     "name": "Service Mesh the Hard Way",
     "url": "https://github.com/teh-username/service-mesh-the-hard-way",
     "desc": "Implementing a service mesh from scratch using Envoy"
