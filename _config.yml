@@ -104,4 +104,4 @@ theme_config:
 
   posts_overview:
     show_all_posts: false
-    post_count: 10
+    post_count: 5
