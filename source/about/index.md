@@ -12,12 +12,10 @@ I'm currently neck deep in containerization technologies such as Docker and Kube
 
 A big fan of:
 
-0. Infrastructure and Configuration as Code
-1. CI and CD
+0. Pushing performant code
+1. Writing slick tests
 2. Automating boring and manual stuff
-3. Writing slick tests
-4. Pushing performant code
-
-I'm currently a Senior Site Reliability Engineer at ING BSS
+3. CI and CD
+4. Infrastructure and Configuration as Code
 
 You can reach me at hello(at)laroberto.dev

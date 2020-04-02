@@ -90,12 +90,12 @@ theme_config:
   projects_url: https://github.com/teh-username
 
   disqus:
-    enabled: true
-    shortname: laroberto
+    enabled: false
+    shortname:
 
   google_analytics:
     enabled: false
-    id: UA-70432331-4
+    id:
 
   social_links:
 
