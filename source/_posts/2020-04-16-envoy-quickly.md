@@ -1,6 +1,6 @@
 ---
 title: "Observability by deploying Envoy without a control plane"
-date: 2020-04-19 15:30:00
+date: 2020-04-20 13:10:00
 tags:
   - envoy
   - microservices
