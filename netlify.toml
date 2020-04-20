@@ -9,3 +9,15 @@
   to = "https://www.laroberto.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://laroberto.netlify.com/*"
+  to = "https://www.laroberto.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.laroberto.com/migrating-to-vultr/*"
+  to = "https://www.laroberto.com"
+  status = 301
+  force = true
