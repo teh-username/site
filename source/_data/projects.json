@@ -1,5 +1,10 @@
 [
   {
+    "name": "Envoy, quickly!",
+    "url": "https://github.com/teh-username/envoy-quickly",
+    "desc": "Observability by deploying Envoy without a control plane"
+  },
+  {
     "name": "ngrok--",
     "url": "https://github.com/teh-username/ngrok--",
     "desc": "ngrok but worse!"
@@ -23,10 +28,5 @@
     "name": "Pin Vault",
     "url": "https://github.com/teh-username/pin-vault",
     "desc": "A mobile app for managing simple pin codes"
-  },
-  {
-    "name": "itap bot",
-    "url": "https://github.com/teh-username/itap_bot/",
-    "desc": "A reddit bot for the /r/itookapicture subreddit"
   }
 ]
