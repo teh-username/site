@@ -1,5 +1,10 @@
 [
   {
+    "name": "MailerMQ",
+    "url": "https://mailermq.com",
+    "desc": "Anonymous and disposable email forwarding service"
+  },
+  {
     "name": "Envoy, quickly!",
     "url": "https://github.com/teh-username/envoy-quickly",
     "desc": "Observability by deploying Envoy without a control plane"
