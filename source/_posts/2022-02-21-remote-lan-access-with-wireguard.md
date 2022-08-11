@@ -6,6 +6,9 @@ tags:
   - networking
 ---
 
+Translations: [简体中文](https://www.wogong.net/blog/2022/08/remote-lan-access-with-wireguard) (Thanks Zhen!)
+
+
 In this episode, let's go over how to set up a simple but secure tunnel (read: VPN) to your local LAN (read: homelab) using [WireGuard](https://www.wireguard.com/). We'll be going with the VPS route so we don't have to expose any ports to the internet.
 
 We'll be emulating the following setup:
