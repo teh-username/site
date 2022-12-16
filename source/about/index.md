@@ -6,6 +6,6 @@ tags:
 
 Hello there! I'm LA and I write code (for a living and for fun).
 
-I'm currently part of the Infrastructure Team under AWS EC2 KaOS (Kernel and Operating Systems). Do give my [Github](https://github.com/teh-username) page a visit to see what I'm working on.
+I'm currently stirring up chaos under the AWS Fault Injection Simulator Team. Do give my [Github](https://github.com/teh-username) page a visit to see what I'm working on.
 
 You can reach me at hello(at)laroberto.dev
