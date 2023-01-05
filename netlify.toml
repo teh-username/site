@@ -21,3 +21,13 @@
   to = "https://www.laroberto.com"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/lfmhy/js/script.js"
+  to = "https://analytics.lfmhy.com/js/script.js"
+  status = 200
+
+[[redirects]]
+  from = "/lfmhy/api/event"
+  to = "https://analytics.lfmhy.com/api/event"
+  status = 200
