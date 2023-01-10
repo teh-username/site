@@ -227,4 +227,4 @@ Putting it all together gives us:
 
 ## Edits
 
-1. This entry was presented at a [local Javascript meetup](https://www.meetup.com/ManilaJavaScript/events/242890430/). Presentation slides can be acquired [here](jsx_in_a_nutshell.pdf).
+1. This entry was presented at a [local Javascript meetup](https://www.meetup.com/ManilaJavaScript/events/242890430/). Presentation slides can be acquired {% asset_link jsx_in_a_nutshell.pdf here %}.
