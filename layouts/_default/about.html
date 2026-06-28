@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<div class="about-body">
+  {{ .Content }}
+</div>
+
+<p class="projects-heading">Projects</p>
+
+<ul class="project-list">
+  <li class="project-item">
+    <a class="project-item-name" href="https://mailermq.com">MailerMQ</a>
+    <span class="project-item-desc">Anonymous disposable email forwarding</span>
+  </li>
+  <li class="project-item">
+    <a class="project-item-name" href="https://github.com/teh-username/envoy-quickly">Envoy, quickly!</a>
+    <span class="project-item-desc">Observability without a control plane</span>
+  </li>
+  <li class="project-item">
+    <a class="project-item-name" href="https://github.com/teh-username/ngrok--">ngrok--</a>
+    <span class="project-item-desc">ngrok but worse!</span>
+  </li>
+  <li class="project-item">
+    <a class="project-item-name" href="https://github.com/teh-username/2faas.dev">2Factor-as-a-Service</a>
+    <span class="project-item-desc">OTPs à la Google Authenticator</span>
+  </li>
+  <li class="project-item">
+    <a class="project-item-name" href="https://github.com/teh-username/service-mesh-the-hard-way">Service Mesh the Hard Way</a>
+    <span class="project-item-desc">Service mesh from scratch using Envoy</span>
+  </li>
+  <li class="project-item">
+    <a class="project-item-name" href="https://github.com/teh-username/git-gud-scrub/">Git Gud Scrub</a>
+    <span class="project-item-desc">A web app for learning git</span>
+  </li>
+  <li class="project-item">
+    <a class="project-item-name" href="https://github.com/teh-username/pin-vault">Pin Vault</a>
+    <span class="project-item-desc">Mobile app for managing pin codes</span>
+  </li>
+</ul>
+
+{{ end }}

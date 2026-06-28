@@ -1,7 +1,4 @@
-.DS_Store
-Thumbs.db
-db.json
-*.log
-node_modules/
 public/
-.deploy*/
+resources/
+.hugo_build.lock
+.DS_Store

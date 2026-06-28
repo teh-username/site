@@ -1,33 +1,70 @@
-[[redirects]]
-  from = "http://blog.laroberto.com/*"
-  to = "http://www.laroberto.com/:splat"
-  status = 301
-  force = true
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.163.3"
+
+# ── Existing domain redirects ──────────────────────────────────────────────────
 
 [[redirects]]
-  from = "https://blog.laroberto.com/*"
-  to = "https://www.laroberto.com/:splat"
-  status = 301
-  force = true
+  from    = "http://blog.laroberto.com/*"
+  to      = "http://www.laroberto.com/:splat"
+  status  = 301
+  force   = true
 
 [[redirects]]
-  from = "https://laroberto.netlify.com/*"
-  to = "https://www.laroberto.com/:splat"
-  status = 301
-  force = true
+  from    = "https://blog.laroberto.com/*"
+  to      = "https://www.laroberto.com/:splat"
+  status  = 301
+  force   = true
 
 [[redirects]]
-  from = "https://www.laroberto.com/migrating-to-vultr/*"
-  to = "https://www.laroberto.com"
-  status = 301
-  force = true
+  from    = "https://laroberto.netlify.com/*"
+  to      = "https://www.laroberto.com/:splat"
+  status  = 301
+  force   = true
 
 [[redirects]]
-  from = "/lfmhy/js/script.js"
-  to = "https://analytics.lfmhy.com/js/script.js"
+  from    = "https://www.laroberto.com/migrating-to-vultr/*"
+  to      = "https://www.laroberto.com"
+  status  = 301
+  force   = true
+
+# ── URL compatibility ──────────────────────────────────────────────────────────
+# Hugo strips trailing hyphens from slugs; ngrok-- becomes /ngrok/
+# Redirect the old URL so existing links don't break
+
+[[redirects]]
+  from   = "/ngrok--/"
+  to     = "/ngrok/"
+  status = 301
+
+# ── New: archives → home ────────────────────────────────────────────────────────
+
+[[redirects]]
+  from   = "/archives/"
+  to     = "/"
+  status = 301
+
+[[redirects]]
+  from   = "/archives/page/*"
+
+[[redirects]]
+  from   = "/posts/"
+  to     = "/"
+  status = 301
+  to     = "/"
+  status = 301
+
+# ── Plausible proxy (existing) ─────────────────────────────────────────────────
+
+[[redirects]]
+  from   = "/lfmhy/js/script.js"
+  to     = "https://analytics.lfmhy.com/js/script.js"
   status = 200
 
 [[redirects]]
-  from = "/lfmhy/api/event"
-  to = "https://analytics.lfmhy.com/api/event"
+  from   = "/lfmhy/api/event"
+  to     = "https://analytics.lfmhy.com/api/event"
   status = 200

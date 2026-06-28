@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<p class="tag-page-heading">Posts tagged <span>{{ .Title }}</span></p>
+
+<ul class="post-list">
+  {{ range .Pages }}
+  <li class="post-item">
+    <time class="post-item-date" datetime="{{ .Date.Format "2006-01-02" }}">
+      {{ .Date.Format "2006-01-02" }}
+    </time>
+    <div class="post-item-right">
+      <a class="post-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ with .Params.tags }}
+      <div class="post-item-tags">
+        {{ range . }}
+        <a class="tag" href="/tags/{{ . | urlize }}/">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </li>
+  {{ end }}
+</ul>
+
+{{ end }}

@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+{{ $posts := where .Site.RegularPages "Type" "posts" }}
+{{ $postsByYear := $posts.GroupByDate "2006" }}
+
+<ul class="post-list">
+  {{ range $postsByYear }}
+  <li>
+    <p class="post-list-year">{{ .Key }}</p>
+    <ul class="post-list">
+      {{ range .Pages }}
+      <li class="post-item">
+        <div class="post-item-left">
+          <a class="post-item-title" href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ with .Params.tags }}
+          <div class="post-item-tags">
+            {{ range . }}
+            <a class="tag" href="/tags/{{ . | urlize }}/">{{ . }}</a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+        <time class="post-item-date" datetime="{{ .Date.Format "2006-01-02" }}">
+          {{ .Date.Format "2006-01-02" }}
+        </time>
+      </li>
+      {{ end }}
+    </ul>
+  </li>
+  {{ end }}
+</ul>
+
+{{ end }}

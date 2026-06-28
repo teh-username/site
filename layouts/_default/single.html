@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<article>
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      {{ with .Params.tags }}
+        {{ range . }}
+        <a class="tag" href="/tags/{{ . | urlize }}/">{{ . }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+</article>
+
+{{ $pages := where .Site.RegularPages "Type" "posts" }}
+{{ $len := len $pages }}
+{{ range $i, $page := $pages }}
+  {{ if eq $page.Permalink $.Permalink }}
+    <nav class="post-nav">
+      <div class="post-nav-prev">
+        {{ if lt (add $i 1) $len }}
+          {{ $prev := index $pages (add $i 1) }}
+          <span class="post-nav-label">Older</span>
+          <a href="{{ $prev.Permalink }}">{{ $prev.Title }}</a>
+        {{ end }}
+      </div>
+      <div class="post-nav-next">
+        {{ if gt $i 0 }}
+          {{ $next := index $pages (sub $i 1) }}
+          <span class="post-nav-label">Newer</span>
+          <a href="{{ $next.Permalink }}">{{ $next.Title }}</a>
+        {{ end }}
+      </div>
+    </nav>
+  {{ end }}
+{{ end }}
+
+{{ end }}
