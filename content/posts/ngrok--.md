@@ -66,4 +66,6 @@ To check whether our implementation works as expected:
 
 3. Point a browser to `<Server IP>:60624` and realize that you are routing through the internet just to access your locally available app! Bonus points for spinning up an instance as far away from you as possible.
 
-<div style='position:relative; padding-bottom:54%'><iframe src='https://gfycat.com/ifr/forkedfrequentgalago' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+<video autoplay loop muted playsinline>
+  <source src="/ngrok/forked-frequent-galago.mp4" type="video/mp4">
+</video>
