@@ -63,16 +63,24 @@ Enjoy the following gifs courtesy of my SO (I actually ordered parts good for tw
 
 Gloves are optional but smudgy acrylic doesn't look nice.
 
-<div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/KnobbySourBarasingha' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
+<video autoplay loop muted playsinline>
+  <source src="/ergodox-build-log/KnobbySourBarasingha.mp4" type="video/mp4">
+</video>
 
 Pro tip: Solder some corner switches first before doing the rest (as seen briefly below). This will make the sandwiched acrylic more stable when you fill in the rest.
 
-<div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/FortunateNegativeAmethystinepython' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
+<video autoplay loop muted playsinline>
+  <source src="/ergodox-build-log/FortunateNegativeAmethystinepython.mp4" type="video/mp4">
+</video>
 
 This is for me, the most relaxing part of the build. Nothing beats continually soldering stuff without burning yourself in the process. Also, as you can see, you can barely see the legs of the switches due to the acrylic not being flat across the PCB.
 
-<div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/ImpassionedCharmingIndochinesetiger' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
+<video autoplay loop muted playsinline>
+  <source src="/ergodox-build-log/ImpassionedCharmingIndochinesetiger.mp4" type="video/mp4">
+</video>
 
 Bonus GIF! DSA profile keycaps are probably the best for this type of keyboard.
 
-<div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/ActiveUnrealisticIbis' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
+<video autoplay loop muted playsinline>
+  <source src="/ergodox-build-log/ActiveUnrealisticIbis.mp4" type="video/mp4">
+</video>
