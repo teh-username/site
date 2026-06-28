@@ -49,11 +49,11 @@
 
 [[redirects]]
   from   = "/archives/page/*"
+  to     = "/"
+  status = 301
 
 [[redirects]]
   from   = "/posts/"
-  to     = "/"
-  status = 301
   to     = "/"
   status = 301
 
