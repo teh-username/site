@@ -322,8 +322,8 @@ footer p {
   border-radius: 2px;
 }
 
-/* code blocks */
-.post-body pre {
+/* code blocks — only targets bare pre, not Chroma-wrapped ones */
+.post-body pre:not(.chroma) {
   background: var(--code-bg);
   border-radius: 4px;
   padding: 1.25rem 1.5rem;
@@ -332,7 +332,7 @@ footer p {
   font-size: 0.875rem;
   line-height: 1.5;
 }
-.post-body pre code {
+.post-body pre:not(.chroma) code {
   background: none;
   padding: 0;
   font-size: inherit;
@@ -416,3 +416,128 @@ footer p {
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* ============================================================
+   SYNTAX HIGHLIGHTING (Chroma — generated at build time)
+   ============================================================ */
+
+/* Chroma wrapper — use site tokens for background, not monokailight's #fafafa */
+.chroma { color: var(--text); background-color: var(--code-bg); -webkit-text-size-adjust: none; }
+
+/* Chroma highlight block */
+.post-body .highlight {
+  background: var(--code-bg);
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  overflow-x: auto;
+  margin-bottom: 1.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.post-body .highlight pre { margin: 0; background: transparent; }
+.post-body .highlight code { background: none; padding: 0; font-size: inherit; }
+
+/* Chroma utility classes (unchanged from generated output) */
+.chroma .lnlinks { outline: none; text-decoration: none; color: inherit; }
+.chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+.chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+.chroma .hl { background-color: #dedad2; }
+.chroma .lnt { white-space: pre; -webkit-user-select: none; user-select: none; margin-right: 0.4em; padding: 0 0.4em; color: #aaa; }
+.chroma .ln  { white-space: pre; -webkit-user-select: none; user-select: none; margin-right: 0.4em; padding: 0 0.4em; color: #aaa; }
+.chroma .line { display: flex; }
+
+/* Warm palette token overrides */
+
+/* Keywords */
+.chroma .k,
+.chroma .kc,
+.chroma .kd,
+.chroma .kn,
+.chroma .kp,
+.chroma .kr,
+.chroma .kt { color: #8b4513; }
+
+/* Comments */
+.chroma .c,
+.chroma .c1,
+.chroma .cm,
+.chroma .ch,
+.chroma .cp,
+.chroma .cpf,
+.chroma .cs  { color: #999999; font-style: italic; }
+
+/* Strings */
+.chroma .s,
+.chroma .s1,
+.chroma .s2,
+.chroma .sa,
+.chroma .sb,
+.chroma .sc,
+.chroma .sd,
+.chroma .sh,
+.chroma .si,
+.chroma .sx,
+.chroma .sr,
+.chroma .ss,
+.chroma .dl  { color: #5a7a45; }
+
+/* String escapes — slightly distinct from plain strings */
+.chroma .se  { color: #4a6a35; }
+
+/* Numbers */
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .il,
+.chroma .mo  { color: #b36200; }
+
+/* Functions, decorators, class names */
+.chroma .nf,
+.chroma .fm,
+.chroma .nc,
+.chroma .nd,
+.chroma .ne,
+.chroma .nx  { color: #6b3d8b; }
+
+/* Attributes */
+.chroma .na  { color: #6b3d8b; }
+
+/* Variables, builtins */
+.chroma .nv,
+.chroma .nb,
+.chroma .vc,
+.chroma .vg,
+.chroma .vi,
+.chroma .vm,
+.chroma .bp  { color: #3d6b9e; }
+
+/* Operators — muted, not hot pink */
+.chroma .o,
+.chroma .ow,
+.chroma .or  { color: #777777; }
+
+/* Tag names (HTML/XML) — neutral */
+.chroma .nt  { color: #777777; }
+
+/* Punctuation, names — default text colour */
+.chroma .p,
+.chroma .n,
+.chroma .ni,
+.chroma .nl,
+.chroma .nn,
+.chroma .no,
+.chroma .py  { color: var(--text); }
+
+/* Literals (non-string/number) */
+.chroma .l,
+.chroma .ld  { color: #b36200; }
+
+/* Errors */
+.chroma .err { color: #960050; background-color: #f4e0e4; }
+
+/* Generic */
+.chroma .ge  { font-style: italic; }
+.chroma .gs  { font-weight: bold; }
