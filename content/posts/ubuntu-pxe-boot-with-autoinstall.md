@@ -27,7 +27,7 @@ chown tftp:tftp /tftp
 
 * Edit `/etc/default/tftpd-hpa` with the following:
 
-```
+```bash
 # /etc/default/tftpd-hpa
 
 TFTP_USERNAME="tftp"

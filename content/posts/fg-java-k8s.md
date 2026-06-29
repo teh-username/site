@@ -87,5 +87,6 @@ Happy profiling!
 
 - - -
 [\*] [A big security risk](https://www.lvh.io/posts/dont-expose-the-docker-socket-not-even-to-a-container.html), tread carefully.
+
 [\*\*] Assuming that the workload is using Google's [distroless](https://github.com/GoogleContainerTools/distroless) as the base image.
 - - -

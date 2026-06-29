@@ -103,7 +103,10 @@ You'll notice that we had to separate the upstreams that communicate over HTTP/1
 
 ## Results
 
-<div style='position:relative; padding-bottom:54%'><iframe src='https://gfycat.com/ifr/greedyseverebluet' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+<video autoplay loop muted playsinline>
+  <source src="/envoy-quickly/GreedySevereBluet.mp4" type="video/mp4">
+</video>
+
 
 You can find more info about Envoy's statistics [here](https://www.envoyproxy.io/docs/envoy/latest/operations/stats_overview) and [here](https://docs.datadoghq.com/integrations/envoy/#data-collected).
 
