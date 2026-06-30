@@ -11,7 +11,7 @@ title = "Works on localhost"
 
   # Analytics hooks — set enabled = true and fill in the id to activate
   [params.plausible]
-    enabled = false
+    enabled = true
     # Plausible is proxied through Netlify at /lfmhy/ — no domain needed here
     # Set enabled = true to activate the script tag in baseof.html
 
