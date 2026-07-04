@@ -1,5 +1,5 @@
 ---
-title: "Adventures on Self-Hosting an LLM: Part 0"
+title: "Adventures on Self-Hosting an LLM: Part 0 (Introduction)"
 date: 2026-06-29T19:17:21+02:00
 slug: "self-hosted-llm-part-0"
 tags:
