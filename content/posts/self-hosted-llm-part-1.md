@@ -5,6 +5,7 @@ slug: "self-hosted-llm-part-1"
 tags:
     - homelab
     - llm
+    - self-hosted-llm-adventure
 ---
 
 Picking up from [Part 0]({{< ref "self-hosted-llm-part-0" >}}), I'll setup my Desktop to be able to host an inference engine and an LLM model. I'll perform a sample query to the LLM after to verify.

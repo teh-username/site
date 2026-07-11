@@ -5,6 +5,7 @@ slug: "self-hosted-llm-part-0"
 tags:
   - homelab
   - llm
+  - self-hosted-llm-adventure
 ---
 
 I'm currently trying to understand how LLMs actually work, so I did what any reasonable person would do, self-hosting one. I'll be documenting my adventure in a series of posts, kicking it off with this one.
